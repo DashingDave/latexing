@@ -11,7 +11,7 @@ The ultimate goal is to figure out how to create textfields in SwiftUI views tha
 
 Neither [iosMath](https://github.com/kostub/iosMath) nor [MathRender](https://github.com/mgriebling/MathRender) appear able to display inline LaTeX that wraps to the screen (as a regular SwiftUI Text view would do).
 
-But, first, the code needs to be cleaned up a lot, and I'm not great with `class` objects. This code is *all* `class` objects--not a single `struct` in sight. Here are a list of every `class` in the project, with their file locations in bold following the arrow. I've also included every `enum` and where they can be found as well.
+But, first, the code needs to be cleaned up a lot, and I'm not great with `class` objects. This code is *all* `class` objects--not a single `struct` in sight. Here is a list of every class in the project, with their file locations in bold following the arrow. I've also included every enum and where they can be found as well.
 
 ##  List of Classes
 
@@ -68,6 +68,6 @@ But, first, the code needs to be cleaned up a lot, and I'm not great with `class
 - MTInterElementSpaceType -->				**MTTypesetter**
 
 
-In addition to the converted code files, I've added some "front-end" SwiftUI files for presenting a `MathView` on the screen. The code there is what would work to display properly typeset text when combined with the iosMath pod or the MathRender package.
+In addition to the converted code files, I've added some "front-end" SwiftUI files to present a `MathView` on the screen. The code there is what would work to display properly typeset text when combined with the iosMath Cocoapod or the MathRender Swift package.
 
 Finally, in the folder `Original C`, you can find the original Objective-C code that was used.
