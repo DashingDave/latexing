@@ -1,8 +1,8 @@
 # latexing
-Swift/UI code to present LaTeX-typeset text within iOS/MacOS apps
+### Swift/UI code to present LaTeX-typeset text within iOS/MacOS apps
 
 
-I've used Swiftify to batch convert the Objective-C files from the iosMath project into Swift in hopes of figuring out how to code the presentation of LaTeX-formatted text within authored iOS/MacOS applications using only Swift code.
+I've used Swiftify to batch convert the Objective-C files from the iosMath project into Swift in hopes of figuring out how to code the presentation of LaTeX-formatted text within authored iOS/MacOS applications *using only Swift code*.
 
 The ultimate goal is to figure out how to create textfields in SwiftUI views that auto-wrap like this:
 
